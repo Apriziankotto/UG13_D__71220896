@@ -1,0 +1,38 @@
+import turtle
+
+pen = turtle.Turtle()
+turtle.Screen().bgcolor("purple")
+pen.pensize(20)
+pen.pencolor("white")
+pen.up()
+pen.goto(0,175)
+pen.down()
+pen.left(90)
+pen.right(20)
+pen.forward(100)
+pen.right(140)
+pen.forward(100)
+pen.backward(50)
+pen.right(110)
+pen.forward(35)
+
+pen.up()
+pen.goto(0,-200)
+pen.down()
+pen.forward(30)
+pen.circle(-60,-185)
+pen.forward(30)
+pen.circle(60,-250)
+
+pen.up()
+pen.goto(-200,20)
+pen.down()
+pen.forward(30)
+pen.circle(50)
+pen.forward(5)
+pen.right(90)
+pen.forward(30)
+pen.circle(50)
+
+
+sc = turtle.Screen().exitonclick()
